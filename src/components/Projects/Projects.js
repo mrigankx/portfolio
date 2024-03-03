@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import alan from "../../Assets/Projects/alan.png";
 import expense from "../../Assets/Projects/expense.png";
-import memories from "../../Assets/Projects/mermories.png";
+import PasswordGenerator from "../../Assets/Projects/passwordgenerator.jpg";
 import mes from "../../Assets/Projects/mes.png";
 import vc from "../../Assets/Projects/vc.jpg";
 
@@ -33,12 +33,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={memories}
+              imgPath={PasswordGenerator}
               isBlog={false}
-              title="Memories Social Media"
-              description="Using React, Node.js, Express & MongoDB I built this Full Stack MERN Application. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives."
-              ghLink="https://github.com/mrigankx/memories-app"
-              demoLink="https://memories-mrigankx.web.app/"
+              title="Password Generator App"
+              description="A random password generator application built using React Native with functionalities of customizing the password characters and copy to clipboard."
+              ghLink="https://github.com/mrigankx/PasswordGenerator"
             />
           </Col>
 
@@ -59,7 +58,7 @@ function Projects() {
               isBlog={false}
               title="Model English School Website"
               description="Built with MERN stack, this is a real life school website where visitors can apply for admissions and career options. This also has a dashboard, which can be used to manage the content of this website. This website is currently being used by Model English School, Pathsala."
-              demoLink="https://mededucation-react-client.onrender.com/"
+              demoLink="https://meseducation.in"
             />
           </Col>
 
